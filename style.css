@@ -1,5 +1,5 @@
 body {
-    background-image: url(./images/night-forest-theme-li6.jpg);
+    background-image: url(./images/moon-sky.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -32,6 +32,10 @@ form {
 
 .email {
     text-align: center;
+}
+
+#emailHelp {
+    color: white;
 }
 
 #password-div {
