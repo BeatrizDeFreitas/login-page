@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(53, 49, 49);
+    background-image: url(./images/night-forest-theme-li6.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -21,6 +23,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #email-div {
@@ -41,6 +44,10 @@ form {
 
 #remember-div {
     text-align: center;
+}
+
+#button {
+    width: 100px;
 }
 
 #forgot {
