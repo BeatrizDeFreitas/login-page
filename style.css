@@ -1,26 +1,49 @@
-#form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-evenly;
-    margin: 200px;
-    margin-left: 400px;
-    padding: 100px;
-    width: 1000px;
-    background-color: rgb(142, 85, 173);
+body {
+    background-color: rgb(53, 49, 49);
+}
+
+h1 {
     text-align: center;
-    font-weight: bold;
+}
+#form-div {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    width: 500px;
+    margin: auto;
+    padding: 80px;
+    background: rgb(182,9,39);
+    background: linear-gradient(90deg, rgba(182,9,39,1) 0%, rgba(54,5,122,1) 0%, rgba(2,0,36,1) 0%, rgba(54,5,122,1) 100%, rgba(64,5,116,1) 100%, rgba(2,0,36,1) 100%);
+    border-radius: 15px;
+    margin-top: 200px;
 }
 
-#email {
-    margin: 20px;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#password {
-    margin: 20px;
+#email-div {
+    text-align: center;
 }
 
-.btn {
-    background-color: rgb(13, 35, 54);
+.email {
+    text-align: center;
+}
+
+#password-div {
+    text-align: center;
+}
+
+.password {
+    text-align: center;
+}
+
+#remember-div {
+    text-align: center;
+}
+
+#forgot {
+    text-align: center;
+    margin-bottom: 20px;
 }
