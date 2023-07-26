@@ -58,3 +58,11 @@ form {
     text-align: center;
     margin-bottom: 20px;
 }
+
+footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
