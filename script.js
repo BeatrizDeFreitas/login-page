@@ -1,2 +1,3 @@
-const button = document.getElementById('button');
+window.onload = () => {
 
+};
